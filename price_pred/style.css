@@ -1,0 +1,35 @@
+/* Main app background */
+[data-testid="stAppViewContainer"] {
+    background-color: #e6f59f;
+}
+h1 {
+    text-align: center;
+    color: #131c24;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #1f77b4;
+    color: rgb(149, 224, 241);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.stButton > button:hover {
+    background-color: #145a86;
+}
+
+/* Input boxes */
+input, select {
+    border-radius: 6px !important;
+}
+
+/* Success box */
+.stSuccess {
+    border-left: 6px solid #0f3c22;
+}
+
+/* Error box */
+.stError {
+    border-left: 6px solid #e74c3c;
+}
